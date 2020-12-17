@@ -1,0 +1,189 @@
+body{
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    vertical-align: bottom;
+    margin: 0; padding: 0;
+    /* background-color: #f4eae0; */
+    background: linear-gradient(to right,#d4bfab,#f4eae0,#d4bfab);
+    font-family: 'Noto Sans KR', sans-serif;
+    color:  #262626;
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+header{
+        text-align: center;
+        color: #dc0733;
+        font-size: 74px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+
+    p.title{
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 25px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 600;
+    }
+
+
+
+    .content>ul{
+        margin-left: 400px;
+        display: flex;
+        padding-top: 60px;
+    }
+
+    .content>ul>li>span.lineFirst{
+        position: absolute;
+        height: 1px;
+        width: 355px;
+        margin-top: 15px;
+        background-color: #262626;
+    }
+
+    .content>ul>li>span.lineSecond{
+        position: absolute;
+        height: 1px;
+        width: 566px;
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: #262626;
+    }
+
+
+    input.Email{
+        width: 580px;
+        height: 60px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    input::placeholder {
+        color:#c5c5c5;
+        font-weight: 400;
+      }
+
+    input.texts{
+        margin-top: 10px;
+        width: 580px;
+        height: 300px;
+    }
+
+    button{
+        background:#dc0733;
+        color: #f4eae0;
+        border: none;
+        font-size: 20px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 120px;
+        height: 60px;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+        border-radius: 5%;
+        float: right;
+    }
+
+    button>a{
+        
+    }
+
+    button:hover{
+        background: #f4eae0;
+        color:#dc0733;
+      }
+    
+
+    li:first-child{
+        margin-right: 100px;
+    }
+
+    li:last-child{
+        margin-left: 100px;
+    }
+
+p{    transition:800ms ease all;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+
+    letter-spacing: 5px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.text>a>button{
+    float: left;
+        text-align: center;
+}
+
+p.pr:hover{
+    color:#dc0733;
+}
+
+div.vertical-line{
+    width: 1px;
+    background-color: black; 
+    height: 100%; 
+    float: left;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

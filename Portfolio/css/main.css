@@ -1,0 +1,169 @@
+body{
+
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    margin: 0; padding: 0;
+    /* background-color: #f4eae0; */
+    background: linear-gradient(to right,#d4bfab,#f4eae0,#d4bfab);
+}
+
+@keyframes in{
+    0%{
+      letter-spacing: 20px;
+      opacity: 0;
+    }
+    100%{
+      letter-spacing: 35px;
+      opacity: 1;
+    }
+  }
+
+
+header>div{    animation: in 1s ease-out forwards;
+        text-align: center;
+        color: #dc0733;
+        font-size: 175px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 700;
+        letter-spacing: 50px;
+        margin-left: 80px;
+        font-size: 150px;
+        z-index: 9999;
+    }
+
+
+div{
+    z-index: 1;
+
+    z-index: 99999;
+    font-size: 60px;
+    letter-spacing: 0;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    /* font-style: italic; */
+    color:  #262626;
+}
+
+
+div.link-1{
+    padding-left: 300px;
+    padding-top: 40px;
+}
+div.link-2{
+    padding-left: 300px;
+    padding-top: 80px;
+}
+
+div.link-4{
+    padding-right: 300px;
+    text-align: right;
+}
+div.link-5{
+    padding-right: 300px;
+    padding-top: 80px;
+    /* margin-bottom: 115px; */
+    text-align: right;
+}
+
+div.pic{
+    vertical-align: bottom;
+    z-index: 1;
+    bottom: 0;
+    position: absolute;
+    margin-left: 555px;
+
+}
+
+img{
+}
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+ 
+    @-moz-keyframes fadein {
+ 
+        /* Firefox */
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+ 
+    @-webkit-keyframes fadein {
+ 
+        /* Safari and Chrome */
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+ 
+    @-o-keyframes fadein {
+ 
+        /* Opera */
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+
+
+p{
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0;
+    font-size: 22px;
+    color: #c04f67;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+#link{text-decoration: none;
+    letter-spacing: 5px;
+    color: #262626;}
+
+#link{
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:800ms ease all;
+}
+
+#link:hover{
+    color: #a70b2a;
+}
+
+.nolink{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    color: #AB9A8B;
+    text-align: center;
+    font-size: 40px;
+    z-index: 99999;
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-left: 80px;
+    letter-spacing: 0;
+}
+
+
